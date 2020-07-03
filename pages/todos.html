@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title> todos </title>
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="../node_modules/css/todos.css">   
+    </head>
+    <body>
+        <h1 class="main-heading"> TODOS </h1>
+        <div id="add-todo" class="new-todo space" >
+            <input type="text" id="new-todo" class="inp-form" name="todo" placeholder="what needs to be done?" autofocus>
+        </div>
+        <div id="todos" class="container">
+            
+        </div>
+
+        <script type="text/html" id="inp-item">
+            <div class="item-box">
+                <input type="text" data-todo="here" class="new-item" placeholder="what specific part of it?" name="item">
+            </div>
+        </script>
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="../scripts/todos.js"></script>
+        <script type="text/javascript" src="../scripts/new_todo.js"></script>
+        <script type="text/javascript" src="../scripts/close_action.js"></script>
+        <script type="text/javascript" src="../scripts/edit_action.js"></script>
+        <script type="text/javascript" src="../scripts/edit_item.js"></script>
+        <script type="text/javascript" src="../scripts/add_item.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        
+    </body>
+</html>
